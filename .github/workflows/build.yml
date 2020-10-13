@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: lk2nd zImage
-        path: /home/runner/lk2nd/build-msm8953-secondary/zImage+dtb
+        path: ~/lk2nd/build-msm8953-secondary/zImage+dtb
