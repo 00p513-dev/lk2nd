@@ -29,3 +29,8 @@ jobs:
       with:
         name: lk2nd lvgl image
         path: /home/runner/lk2nd/build-msm8953-secondary/lk2nd.img
+    - name : Upload boot image
+      uses: actions/upload-artifact@master
+      with:
+        name: lk2nd zImage
+        path: /home/runner/lk2nd/build-msm8953-secondary/zImage+dtb
