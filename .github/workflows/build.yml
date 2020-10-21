@@ -22,7 +22,7 @@ jobs:
       run: |
         git clone https://github.com/00p513-dev/lk2nd ~/lk2nd
     - name: Build 
-      run: 
+      run: |
         make TOOLCHAIN_PREFIX=arm-none-eabi- msm8953-secondary
         pwd
         ls
